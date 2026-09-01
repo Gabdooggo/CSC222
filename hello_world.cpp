@@ -9,6 +9,7 @@ int main()
 
     cout << "The answer to the ultimate question of life,\n";
     cout << "the universe and everything is (of course) ";
+    cin >> num;
     cout << num  << "." << endl;
 
     return 0;
