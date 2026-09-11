@@ -13,10 +13,13 @@ int main()
 int n = int(f);
 int m = (int)f;
 cout << n << ' ' << m << endl;*/
-f();
-g();
-h();
-cout << endl;
+//f();
+//g();
+//h();
+//cout << endl;
+int a = 1, b = 2;
+float f = a / b;
+cout << f << endl;
 return 0;
 }
 void f() {
