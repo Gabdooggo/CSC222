@@ -13,7 +13,7 @@ void shuffle(int array[], int size)
     }
    cout << "Shuffled array: ";
     for (int i = 0; i < size; i++) {
-        std::cout << array[i] << " ";
+        cout << array[i] << " ";
     }
     cout << endl;
 }
