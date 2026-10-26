@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
-void str_len(std:: string character)
+using namespace std;
+void str_len(string character)
 {
     int length = character.length();
-    std::cout << "The length of the string is: " << length << std::endl;
+    cout << "The length of the string is: " << length << endl;
 }
 int main() {
-    std:: string message = "Hello, World!";
+   string message = "Message";
     str_len(message);
     return 0;
 }
